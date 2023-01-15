@@ -6,7 +6,7 @@ import java.sql.Statement;
 public class Main {
     public static void main(String[] args) throws SQLException {
 
-    Connection connection =  DriverManager.getConnection("jdbc:mysql://localhost:3306/newdb","root","password");
+    Connection connection =  DriverManager.getConnection("jdbc:mysql://localhost:3306/newdb","root","Passworld@0");
 
         Statement statement = connection.createStatement();
 
